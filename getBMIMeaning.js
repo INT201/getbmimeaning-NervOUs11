@@ -16,5 +16,6 @@ function getBMIMeaning(weight, height) {
       result = "Normal weight"
   }
   console.log(result)
+  return result
 }
 module.exports = getBMIMeaning
